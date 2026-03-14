@@ -1,0 +1,45 @@
+.cabezera {
+    width: 100%;
+    background-color: #1f3d2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 30%;
+    height: auto;
+}
+
+.navegacion {
+    width: 100%;
+    background-color: #1f3d2b;
+    padding: 15px 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* más separación entre textos */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px; /* espacio extra entre textos */
+    border-right: 2px solid white; /* línea separadora */
+    display: flex;         /* convierte cada enlace en contenedor flexible */
+    align-items: center;   /* centra el texto verticalmente */
+    justify-content: center; /* centra el texto horizontalmente */
+}
+
+
+.nav-links a:last-child {
+    border-right: none; /* quita la línea al final */
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
