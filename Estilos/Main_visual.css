@@ -43,3 +43,15 @@
 .nav-links a:hover {
     color: #ffd700;
 }
+
+body.alternativo .cabezera {
+    background-color: #d0481c;
+}
+
+body.alternativo .navegacion {
+    background-color: #d0481c;
+}
+
+body.alternativo .nav-links a {
+    color: #f2c94c;
+}
