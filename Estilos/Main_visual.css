@@ -75,6 +75,7 @@ body.alternativo .nav-links a {
     transform: scale(1.2);    /* se agranda al pasar el ratón */
 }
 
+/*Apartado de Joticius*/
 .content-box {
     background-image: url('../Recursos%20Graficos/fondogra2.jpg');
     background-size: cover;
@@ -89,13 +90,22 @@ body.alternativo .nav-links a {
     margin: 0px;
 }
 
+.logo_rap {
+    width: 100%;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+}
 .cabezera_rap {
     width: 100%;
     background-color: #002944;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: auto;
+    height: 200px;
 }
+
 
 .navegacion_rap {
     width: 100%;
@@ -112,6 +122,7 @@ body.alternativo .nav-links a {
     height: 180px;
 }
 
+
 .eleva{
     background: rgba(0, 120, 141, 0.774);
     padding: 20px;
@@ -120,12 +131,28 @@ body.alternativo .nav-links a {
     height: 180px;
 }
 
+.eleva_cod{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: auto;
+    border-radius: 18px;
+    height: 100px;
+}
+
 .eso{
     background: rgba(0, 120, 141, 0.774);
     padding: 20px;
     max-width: 180px;
     border-radius: 18px;
     height: 180px;
+}
+
+.eso_cod{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: auto;
+    border-radius: 18px;
+    height: 100px;
 }
 
 .armador{
@@ -139,15 +166,15 @@ body.alternativo .nav-links a {
 .rap-intro {
     background: #002944;
     padding: 20px;
-    max-width: 1300px;
+    max-width: auto;
     display: grid;
     place-items: center;
     height: 100vh;
     border-radius: auto;
     height: auto;
     border-radius: 40px;
-    margin: 60px;
-    color: rgb(254, 246, 103);
+    margin: 30px;
+    color: rgb(65, 227, 255);
 }
 
 .no-rules {
@@ -157,8 +184,16 @@ body.alternativo .nav-links a {
     border-radius: auto;
     height: auto;
     border-radius: 40px;
-    margin: 60px;
-    color:rgb(254, 246, 103)
+    margin: 30px;
+    color:rgb(65, 227, 255)
+}
+
+.rapnativo_cod {
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: auto;
+    border-radius: 18px;
+    height: 100px;
 }
 
 .n-hardem {
@@ -168,8 +203,8 @@ body.alternativo .nav-links a {
     border-radius: auto;
     height: auto;
     border-radius: 40px;
-    margin: 60px;
-    color:rgb(254, 246, 103);
+    margin: 30px;
+    color:rgb(65, 227, 255);
 }
 
 .zabaz {
@@ -179,8 +214,8 @@ body.alternativo .nav-links a {
     border-radius: auto;
     height: auto;
     border-radius: 40px;
-    margin: 60px;
-    color:rgb(254, 246, 103);
+    margin: 30px;
+    color:rgb(65, 227, 255);
 }
 
 .luis7lunes {
@@ -190,8 +225,16 @@ body.alternativo .nav-links a {
     border-radius: auto;
     height: auto;
     border-radius: 40px;
-    margin: 60px;
-    color:rgb(198, 188, 0);
+    margin: 30px;
+    color:rgb(65, 227, 255);
+}
+
+.armador_cod {
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: auto;
+    border-radius: 18px;
+    height: 100px;
 }
 
 @font-face {
@@ -203,3 +246,5 @@ body.alternativo .nav-links a {
   font-family: 'FuenteRapSymbols';
   src: url('../Recursos Graficos/DecipherSymbols_PERSONAL_USE_ONLY.otf') format('truetype');
 }
+
+/*Apartado de Joticius*/
