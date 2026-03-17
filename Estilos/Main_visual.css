@@ -45,7 +45,7 @@
 }
 
 .content-box {
-    background-image: url('../Recursos%20Graficos/1797f782d0b2399867509ecffb8d9aea.jpg');
+    background-image: url('../Recursos%20Graficos/fondogra2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@
     border-radius: auto;
     height: auto;
     font-size: 20px;
-    font-family: fantasy;
+    font-family:monospace;
 }
 
 .cabezera_rap {
@@ -104,48 +104,60 @@
 }
 
 .rap-intro {
-    background: rgba(1, 217, 255, 0.484);
+    background: #002944;
     padding: 20px;
-    max-width: auto;
+    max-width: 1300px;
+    display: grid;
+    place-items: center;
+    height: 100vh;
     border-radius: auto;
     height: auto;
     border-radius: 40px;
+    margin: 60px;
+    color: rgb(254, 246, 103);
 }
 
 .no-rules {
-    background: rgba(1, 217, 255, 0.484);
+    background: #002944;
     padding: 20px;
     max-width: auto;
     border-radius: auto;
     height: auto;
     border-radius: 40px;
+    margin: 60px;
+    color:rgb(254, 246, 103)
 }
 
 .n-hardem {
-    background: rgba(1, 217, 255, 0.484);
+    background: #002944;
     padding: 20px;
     max-width: auto;
     border-radius: auto;
     height: auto;
     border-radius: 40px;
+    margin: 60px;
+    color:rgb(254, 246, 103);
 }
 
 .zabaz {
-    background: rgba(1, 217, 255, 0.484);
+    background: #002944;
     padding: 20px;
     max-width: auto;
     border-radius: auto;
     height: auto;
     border-radius: 40px;
+    margin: 60px;
+    color:rgb(254, 246, 103);
 }
 
 .luis7lunes {
-    background: rgba(1, 217, 255, 0.484);
+    background: #002944;
     padding: 20px;
     max-width: auto;
     border-radius: auto;
     height: auto;
     border-radius: 40px;
-    
+    margin: 60px;
+    color:rgb(198, 188, 0);
 }
 
