@@ -44,6 +44,17 @@
     color: #ffd700;
 }
 
+body.alternativo .cabezera {
+    background-color: #d0481c;
+}
+
+body.alternativo .navegacion {
+    background-color: #d0481c;
+}
+
+body.alternativo .nav-links a {
+    color: #f2c94c;
+}
 .content-box {
     background-image: url('../Recursos%20Graficos/fondogra2.jpg');
     background-size: cover;
