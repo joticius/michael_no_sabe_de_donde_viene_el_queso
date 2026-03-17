@@ -45,7 +45,7 @@
 }
 
 .content-box {
-    background: rgba(71, 221, 247, 0.53);
+    background: rgba(4, 71, 83, 0.774);
     padding: 20px;
     max-width: auto;
     border-radius: auto;
@@ -68,7 +68,7 @@
 }
 
 .rapnativo {
-    background: rgba(34, 136, 154, 0.447);
+    background: rgba(4, 71, 83, 0.774);
     padding: 20px;
     max-width: 180px;
     border-radius: 18px;
@@ -76,7 +76,7 @@
 }
 
 .eleva{
-    background: rgba(34, 136, 154, 0.447);
+    background: rgba(4, 71, 83, 0.774);
     padding: 20px;
     max-width: 180px;
     border-radius: 18px;
@@ -84,9 +84,63 @@
 }
 
 .eso{
-    background: rgba(34, 136, 154, 0.447);
+    background: rgba(4, 71, 83, 0.774);
     padding: 20px;
     max-width: 180px;
     border-radius: 18px;
     height: 180px;
 }
+
+.armador{
+    background: rgba(4, 71, 83, 0.774);
+    padding: 20px;
+    max-width: 180px;
+    border-radius: 18px;
+    height: 180px;
+}
+
+.rap-intro {
+    background: rgba(1, 217, 255, 0.484);
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+}
+
+.no-rules {
+    background: rgba(1, 217, 255, 0.484);
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+}
+
+.n-hardem {
+    background: rgba(1, 217, 255, 0.484);
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+}
+
+.zabaz {
+    background: rgba(1, 217, 255, 0.484);
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+}
+
+.luis7lunes {
+    background: rgba(1, 217, 255, 0.484);
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+}
+
