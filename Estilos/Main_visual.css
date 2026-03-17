@@ -106,14 +106,28 @@ body.alternativo .nav-links a {
     height: 200px;
 }
 
-.indig{
-    background: rgba(0, 120, 141, 0.774);
-    padding: 20px;
-    max-width: auto;
-    border-radius: 18px;
-    height: 180px;
+.rap-images2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* espacio entre imágenes */
 }
 
+.favela{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+.favela2{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
 .letrero{
     background: rgba(0, 120, 141, 0.774);
     padding: 20px;
@@ -207,7 +221,10 @@ body.alternativo .nav-links a {
     height: auto;
     border-radius: 40px;
     margin: 30px;
-    color:rgb(65, 227, 255)
+    color:rgb(65, 227, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .rapnativo_cod {
@@ -227,6 +244,9 @@ body.alternativo .nav-links a {
     border-radius: 40px;
     margin: 30px;
     color:rgb(65, 227, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .zabaz {
@@ -238,6 +258,9 @@ body.alternativo .nav-links a {
     border-radius: 40px;
     margin: 30px;
     color:rgb(65, 227, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .luis7lunes {
@@ -249,6 +272,9 @@ body.alternativo .nav-links a {
     border-radius: 40px;
     margin: 30px;
     color:rgb(65, 227, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .armador_cod {
