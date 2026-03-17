@@ -74,7 +74,7 @@
 }
 
 .rapnativo {
-    background: rgba(4, 71, 83, 0.774);
+    background: rgba(0, 120, 141, 0.774);
     padding: 20px;
     max-width: 180px;
     border-radius: 18px;
@@ -82,7 +82,7 @@
 }
 
 .eleva{
-    background: rgba(4, 71, 83, 0.774);
+    background: rgba(0, 120, 141, 0.774);
     padding: 20px;
     max-width: 180px;
     border-radius: 18px;
@@ -90,7 +90,7 @@
 }
 
 .eso{
-    background: rgba(4, 71, 83, 0.774);
+    background: rgba(0, 120, 141, 0.774);
     padding: 20px;
     max-width: 180px;
     border-radius: 18px;
@@ -98,7 +98,7 @@
 }
 
 .armador{
-    background: rgba(4, 71, 83, 0.774);
+    background: rgba(0, 120, 141, 0.774);
     padding: 20px;
     max-width: 180px;
     border-radius: 18px;
@@ -163,4 +163,12 @@
     color:rgb(198, 188, 0);
 }
 
+@font-face {
+  font-family: 'FuenteRap';
+  src: url('../Recursos Graficos/Decipher_PERSONAL_USE_ONLY.otf') format('truetype');
+}
 
+@font-face {
+  font-family: 'FuenteRapSymbols';
+  src: url('../Recursos Graficos/DecipherSymbols_PERSONAL_USE_ONLY.otf') format('truetype');
+}
