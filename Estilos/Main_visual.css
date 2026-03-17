@@ -45,7 +45,10 @@
 }
 
 .content-box {
-    background: rgba(4, 71, 83, 0.774);
+    background-image: url('../Recursos%20Graficos/1797f782d0b2399867509ecffb8d9aea.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 20px;
     max-width: auto;
     border-radius: auto;
