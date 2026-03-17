@@ -55,6 +55,7 @@
     height: auto;
     font-size: 20px;
     font-family:monospace;
+    margin: 0px;
 }
 
 .cabezera_rap {
@@ -69,6 +70,7 @@
     width: 100%;
     background-color: #002944;
     padding: 15px 0;
+    height: 200px;
 }
 
 .rapnativo {
@@ -160,4 +162,5 @@
     margin: 60px;
     color:rgb(198, 188, 0);
 }
+
 
