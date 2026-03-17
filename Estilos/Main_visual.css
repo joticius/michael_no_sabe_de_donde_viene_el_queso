@@ -50,7 +50,8 @@
     max-width: auto;
     border-radius: auto;
     height: auto;
-
+    font-size: 20px;
+    font-family: fantasy;
 }
 
 .cabezera_rap {
@@ -142,5 +143,6 @@
     border-radius: auto;
     height: auto;
     border-radius: 40px;
+    
 }
 
