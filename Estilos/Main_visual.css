@@ -43,3 +43,50 @@
 .nav-links a:hover {
     color: #ffd700;
 }
+
+.content-box {
+    background: rgba(71, 221, 247, 0.53);
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+
+}
+
+.cabezera_rap {
+    width: 100%;
+    background-color: #002944;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacion_rap {
+    width: 100%;
+    background-color: #002944;
+    padding: 15px 0;
+}
+
+.rapnativo {
+    background: rgba(34, 136, 154, 0.447);
+    padding: 20px;
+    max-width: 180px;
+    border-radius: 18px;
+    height: 180px;
+}
+
+.eleva{
+    background: rgba(34, 136, 154, 0.447);
+    padding: 20px;
+    max-width: 180px;
+    border-radius: 18px;
+    height: 180px;
+}
+
+.eso{
+    background: rgba(34, 136, 154, 0.447);
+    padding: 20px;
+    max-width: 180px;
+    border-radius: 18px;
+    height: 180px;
+}
