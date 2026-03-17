@@ -56,6 +56,25 @@ body.alternativo .nav-links a {
     color: #f2c94c;
 }
 
+.Preguntas {
+    position: fixed;          /* se queda fija al hacer scroll */
+    bottom: 5%;             /* separación desde abajo */
+    right: 2%;              /* separación desde la derecha */
+    z-index: 1000;            /* asegura que quede encima del contenido */
+    display: inline-block;    /* mantiene el enlace como bloque ajustado */
+    transition: transform 0.5s ease; /* animación suave */
+}
+
+.Preguntas img {
+    width: 125px;              /* tamaño inicial */
+    height: auto;
+    cursor: pointer;          /* muestra la mano al pasar */
+}
+
+.Preguntas:hover {
+    transform: scale(1.2);    /* se agranda al pasar el ratón */
+}
+
 /*Apartado de Joticius*/
 .content-box {
     background-image: url('../Recursos%20Graficos/fondogra2.jpg');
