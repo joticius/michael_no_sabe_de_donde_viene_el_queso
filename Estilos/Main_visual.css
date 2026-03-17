@@ -55,3 +55,131 @@ body.alternativo .navegacion {
 body.alternativo .nav-links a {
     color: #f2c94c;
 }
+.content-box {
+    background-image: url('../Recursos%20Graficos/fondogra2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    font-size: 20px;
+    font-family:monospace;
+    margin: 0px;
+}
+
+.cabezera_rap {
+    width: 100%;
+    background-color: #002944;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacion_rap {
+    width: 100%;
+    background-color: #002944;
+    padding: 15px 0;
+    height: 200px;
+}
+
+.rapnativo {
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 180px;
+    border-radius: 18px;
+    height: 180px;
+}
+
+.eleva{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 180px;
+    border-radius: 18px;
+    height: 180px;
+}
+
+.eso{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 180px;
+    border-radius: 18px;
+    height: 180px;
+}
+
+.armador{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 180px;
+    border-radius: 18px;
+    height: 180px;
+}
+
+.rap-intro {
+    background: #002944;
+    padding: 20px;
+    max-width: 1300px;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 60px;
+    color: rgb(254, 246, 103);
+}
+
+.no-rules {
+    background: #002944;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 60px;
+    color:rgb(254, 246, 103)
+}
+
+.n-hardem {
+    background: #002944;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 60px;
+    color:rgb(254, 246, 103);
+}
+
+.zabaz {
+    background: #002944;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 60px;
+    color:rgb(254, 246, 103);
+}
+
+.luis7lunes {
+    background: #002944;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 60px;
+    color:rgb(198, 188, 0);
+}
+
+@font-face {
+  font-family: 'FuenteRap';
+  src: url('../Recursos Graficos/Decipher_PERSONAL_USE_ONLY.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuenteRapSymbols';
+  src: url('../Recursos Graficos/DecipherSymbols_PERSONAL_USE_ONLY.otf') format('truetype');
+}
