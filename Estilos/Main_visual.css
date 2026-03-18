@@ -230,6 +230,11 @@ body.alternativo .content-box {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+.logo_rap {
+    width: 95%;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
 }
 
 .cabezera_rap {
@@ -238,6 +243,44 @@ body.alternativo .content-box {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.rap-images2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* espacio entre imágenes */
+}
+
+.favela{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+.favela2{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+.letrero{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+.patada{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
 }
 
 .navegacion_rap {
@@ -384,12 +427,11 @@ body.alternativo .content-box {
 .rap-intro {
     background: #002944;
     padding: 20px;
-    max-width: 1300px;
-    display: grid;
-    place-items: center;
-    height: 100vh;
-    border-radius: auto;
-    height: auto;
+    max-width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     border-radius: 40px;
     margin: 60px;
     color: rgb(254, 246, 103);
@@ -402,8 +444,19 @@ body.alternativo .content-box {
     border-radius: auto;
     height: auto;
     border-radius: 40px;
-    margin: 60px;
-    color:rgb(254, 246, 103)
+    margin: 30px;
+    color:rgb(65, 227, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rapnativo_cod {
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: auto;
+    border-radius: 18px;
+    height: 100px;
 }
 
 .n-hardem {
@@ -413,8 +466,11 @@ body.alternativo .content-box {
     border-radius: auto;
     height: auto;
     border-radius: 40px;
-    margin: 60px;
-    color:rgb(254, 246, 103);
+    margin: 30px;
+    color:rgb(65, 227, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .zabaz {
@@ -424,8 +480,11 @@ body.alternativo .content-box {
     border-radius: auto;
     height: auto;
     border-radius: 40px;
-    margin: 60px;
-    color:rgb(254, 246, 103);
+    margin: 30px;
+    color:rgb(65, 227, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .luis7lunes {
@@ -435,8 +494,26 @@ body.alternativo .content-box {
     border-radius: auto;
     height: auto;
     border-radius: 40px;
-    margin: 60px;
-    color:rgb(198, 188, 0);
+    margin: 30px;
+    color:rgb(65, 227, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.armador_cod {
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: auto;
+    border-radius: 18px;
+    height: 100px;
+}
+
+.rap-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* espacio entre imágenes */
 }
 
 @font-face {
@@ -448,3 +525,228 @@ body.alternativo .content-box {
   font-family: 'FuenteRapSymbols';
   src: url('../Recursos Graficos/DecipherSymbols_PERSONAL_USE_ONLY.otf') format('truetype');
 }
+
+/*Apartado de Daniel Inicio */
+.content-box-main{
+    background-image: url('../Recursos Graficos/main/Fondo_Amarillo.png');
+    background-size: contain;
+    background-position: 100% 100%;
+    background-repeat:repeat;
+    margin: 1px;
+    padding: 1px;
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hits-cont{
+    position:relative;
+    height: 500px;
+    
+}
+.hits{
+    position:absolute;
+    right:-25vh;
+    top: 80px;
+    background-color: #f4e8dd;
+    padding: 30px;
+    width: 1300px;
+    place-items: right;
+    border-radius: auto;
+    height: 300px;
+    border-radius: 40px;
+    display: flex;
+    gap: 20px;
+}   
+.hit-info p{
+    color: rgba(31, 61, 43, 1);
+    font-size: 32px;
+    font-family:monospace;
+    max-width: 500px;
+}
+.hit-info h1{
+    color: rgba(203, 159, 0, 1);
+    font-size: 60px;
+    font-family: monospace;
+    max-width: 500px;
+}
+.hits-cont img{
+    width: 300px;
+    height: 300px;
+}
+/*Apartado de Daniel BANDA 2  */
+.Noticia-cont{
+    position:relative;
+    height: 500px;
+}
+.BALTHVS{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items:right;
+    gap: 20px;
+    background-color: #f4e8dd;
+    padding: 30px;
+    width: 85%;
+    max-width: 1050px ;
+    border-radius: 40px;
+    height: 300px;
+}   
+.BALTHVS-info p{
+    color: rgba(31, 61, 43, 1);
+    font-size: 32px;
+    font-family:monospace;
+    margin-left: 680px;
+    text-align: right;
+    margin-right: -px;
+    margin-top: -20px;
+}
+.BALTHVS-info h1{
+    color: rgba(203, 159, 0, 1);
+    font-size: 60px;
+    font-family: monospace;
+    max-width: 500px;
+    margin-left: 1020px;
+    text-align: right;
+    margin-top: 20px;
+}
+.BALTHVS-cont img{
+    width: 200px;
+    height: 200px;
+    margin:0 auto;
+    border-radius: 20px ;  
+}
+/*Apartado de Daniel BANDA 3 */
+.Entreco-cont{
+    position:relative;
+    height: 500px;
+}
+.Entreco{
+    display: flex;
+    justify-content: flex-start;
+    align-items: right;
+    gap: 20px;
+    background-color: #f4e8dd;
+    padding: 30px;
+    width: 1200px;
+    max-width: 1500px ;
+    border-radius: 40px;
+    height: 300px;
+}
+.Entreco-info p{
+    color: rgba(31, 61, 43, 1);
+    font-size: 32px;
+    font-family:monospace;
+    margin-right: 680px;
+    text-align: left;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+.Entreco-info h1{
+    color: rgba(203, 159, 0, 1);
+    font-size: 50px;
+    font-family: monospace;
+    max-width: 500px;
+    margin-right: 1020px;
+    text-align: left;
+    margin-left: -40px;
+    margin-top: 5px;
+}
+.Entreco-cont img{
+    transform: scale(0.8);
+    margin:0 auto;
+    border-radius: 20px ;  
+}
+
+
+/*Cumbieros*/
+.cabezera_cumbia {
+    width: 100%;
+    background-color: #cb9f00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: 200px;
+}
+
+.navegacion_cumbia {
+    width: 100%;
+    background-color: #cb9f00;
+    padding: 15px 0;
+    height: 200px;
+}
+
+.content-box-cumbia {
+    background-image: url('../Recursos%20Graficos/cumbia/pasaje2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    font-size: 20px;
+    font-family:monospace;
+    margin: 0px;
+}
+
+.cumbia-intro {
+    background: #cb9f00;
+    padding: 20px;
+    max-width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin: 30px;
+    color: rgb(255, 255, 255);
+}
+
+
+.albumero {
+    background: #fff9c3;
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+.lisandro {
+    background: #fff9c3;
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+.toto{
+    background: #fff9c3;
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+.acido{
+    background: #cb9f00;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 30px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.licha2{
+    background: #fff9c3;
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+/*Apartado de Joticius*/
