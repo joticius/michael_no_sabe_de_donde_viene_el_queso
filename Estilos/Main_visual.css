@@ -743,7 +743,7 @@ body.alternativo .content-box {
     font-size: 32px;
     font-family:monospace;
     margin-right: 600px;
-    text-align: right;
+    text-align: left    ;
     margin-top: -25px;
     justify-content: flex-end;
 }
