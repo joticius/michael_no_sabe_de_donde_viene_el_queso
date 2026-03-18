@@ -306,7 +306,7 @@ body.alternativo .nav-links a {
 /*Cumbieros*/
 .cabezera_cumbia {
     width: 100%;
-    background-color: #002944;
+    background-color: #cb9f00;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -316,13 +316,13 @@ body.alternativo .nav-links a {
 
 .navegacion_cumbia {
     width: 100%;
-    background-color: #002944;
+    background-color: #cb9f00;
     padding: 15px 0;
     height: 200px;
 }
 
 .content-box-cumbia {
-    background-image: url('../Recursos%20Graficos/rap/fondogra2.jpg');
+    background-image: url('../Recursos%20Graficos/cumbia/pasaje2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -333,5 +333,18 @@ body.alternativo .nav-links a {
     font-size: 20px;
     font-family:monospace;
     margin: 0px;
+}
+
+.cumbia-intro {
+    background: #cb9f00;
+    padding: 20px;
+    max-width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin: 30px;
+    color: rgb(255, 255, 255);
 }
 /*Apartado de Joticius*/
