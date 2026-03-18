@@ -55,8 +55,29 @@ body.alternativo .navegacion {
 body.alternativo .nav-links a {
     color: #f2c94c;
 }
+
+.Preguntas {
+    position: fixed;          /* se queda fija al hacer scroll */
+    bottom: 5%;             /* separación desde abajo */
+    right: 2%;              /* separación desde la derecha */
+    z-index: 1000;            /* asegura que quede encima del contenido */
+    display: inline-block;    /* mantiene el enlace como bloque ajustado */
+    transition: transform 0.5s ease; /* animación suave */
+}
+
+.Preguntas img {
+    width: 125px;              /* tamaño inicial */
+    height: auto;
+    cursor: pointer;          /* muestra la mano al pasar */
+}
+
+.Preguntas:hover {
+    transform: scale(1.2);    /* se agranda al pasar el ratón */
+}
+
+/*Apartado de Joticius*/
 .content-box {
-    background-image: url('../Recursos%20Graficos/fondogra2.jpg');
+    background-image: url('../Recursos%20Graficos/rap/fondogra2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -69,12 +90,58 @@ body.alternativo .nav-links a {
     margin: 0px;
 }
 
+.logo_rap {
+    width: 95%;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+}
 .cabezera_rap {
     width: 100%;
     background-color: #002944;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: auto;
+    height: 200px;
+}
+
+.rap-images2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* espacio entre imágenes */
+}
+
+.favela{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+.favela2{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+.letrero{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+.patada{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
 }
 
 .navegacion_rap {
@@ -92,6 +159,7 @@ body.alternativo .nav-links a {
     height: 180px;
 }
 
+
 .eleva{
     background: rgba(0, 120, 141, 0.774);
     padding: 20px;
@@ -100,12 +168,28 @@ body.alternativo .nav-links a {
     height: 180px;
 }
 
+.eleva_cod{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: auto;
+    border-radius: 18px;
+    height: 100px;
+}
+
 .eso{
     background: rgba(0, 120, 141, 0.774);
     padding: 20px;
     max-width: 180px;
     border-radius: 18px;
     height: 180px;
+}
+
+.eso_cod{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: auto;
+    border-radius: 18px;
+    height: 100px;
 }
 
 .armador{
@@ -119,15 +203,14 @@ body.alternativo .nav-links a {
 .rap-intro {
     background: #002944;
     padding: 20px;
-    max-width: 1300px;
-    display: grid;
-    place-items: center;
-    height: 100vh;
-    border-radius: auto;
-    height: auto;
+    max-width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     border-radius: 40px;
-    margin: 60px;
-    color: rgb(254, 246, 103);
+    margin: 30px;
+    color: rgb(65, 227, 255);
 }
 
 .no-rules {
@@ -137,8 +220,19 @@ body.alternativo .nav-links a {
     border-radius: auto;
     height: auto;
     border-radius: 40px;
-    margin: 60px;
-    color:rgb(254, 246, 103)
+    margin: 30px;
+    color:rgb(65, 227, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rapnativo_cod {
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: auto;
+    border-radius: 18px;
+    height: 100px;
 }
 
 .n-hardem {
@@ -148,8 +242,11 @@ body.alternativo .nav-links a {
     border-radius: auto;
     height: auto;
     border-radius: 40px;
-    margin: 60px;
-    color:rgb(254, 246, 103);
+    margin: 30px;
+    color:rgb(65, 227, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .zabaz {
@@ -159,8 +256,11 @@ body.alternativo .nav-links a {
     border-radius: auto;
     height: auto;
     border-radius: 40px;
-    margin: 60px;
-    color:rgb(254, 246, 103);
+    margin: 30px;
+    color:rgb(65, 227, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .luis7lunes {
@@ -170,8 +270,26 @@ body.alternativo .nav-links a {
     border-radius: auto;
     height: auto;
     border-radius: 40px;
-    margin: 60px;
-    color:rgb(198, 188, 0);
+    margin: 30px;
+    color:rgb(65, 227, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.armador_cod {
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: auto;
+    border-radius: 18px;
+    height: 100px;
+}
+
+.rap-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* espacio entre imágenes */
 }
 
 @font-face {
@@ -183,6 +301,7 @@ body.alternativo .nav-links a {
   font-family: 'FuenteRapSymbols';
   src: url('../Recursos Graficos/DecipherSymbols_PERSONAL_USE_ONLY.otf') format('truetype');
 }
+<<<<<<< HEAD
 .content-box-main{
     background-image: url('../Recursos Graficos/main/Fondo_Amarillo.png');
     background-size: contain;
@@ -265,3 +384,52 @@ body.alternativo .nav-links a {
     margin:0 auto;
     border-radius: 20px ;  
 }
+=======
+
+
+/*Cumbieros*/
+.cabezera_cumbia {
+    width: 100%;
+    background-color: #cb9f00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: 200px;
+}
+
+.navegacion_cumbia {
+    width: 100%;
+    background-color: #cb9f00;
+    padding: 15px 0;
+    height: 200px;
+}
+
+.content-box-cumbia {
+    background-image: url('../Recursos%20Graficos/cumbia/pasaje2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    font-size: 20px;
+    font-family:monospace;
+    margin: 0px;
+}
+
+.cumbia-intro {
+    background: #cb9f00;
+    padding: 20px;
+    max-width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin: 30px;
+    color: rgb(255, 255, 255);
+}
+/*Apartado de Joticius*/
+>>>>>>> 5394f289792282eb75985660bbbfe7cbf843c608
