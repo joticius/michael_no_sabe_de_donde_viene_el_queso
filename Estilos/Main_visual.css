@@ -454,6 +454,20 @@ body.alternativo .nav-links a {
     border-radius: 18px;
     height: 350px;
 }
+
+.acido{
+    background: #002944;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 30px;
+    color:rgb(65, 227, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 /*Apartado de Joticius*/
 
 /*Apartado de Joticius*/
