@@ -75,7 +75,6 @@ body.alternativo .nav-links a {
     transform: scale(1.2);    /* se agranda al pasar el ratón */
 }
 
-/*Apartado de Joticius*/
 .content-box {
     background-image: url('../Recursos%20Graficos/rap/fondogra2.jpg');
     background-size: cover;
@@ -90,20 +89,26 @@ body.alternativo .nav-links a {
     margin: 0px;
 }
 
+body.alternativo .content-box {
+    background-image: url('../Recursos Graficos/alternativa/fondo cuadros naranjas.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .logo_rap {
     width: 95%;
     align-items: center;
     display: block;
     margin: 0 auto;
 }
+
 .cabezera_rap {
     width: 100%;
     background-color: #002944;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: auto;
-    height: 200px;
 }
 
 .rap-images2 {
@@ -159,6 +164,107 @@ body.alternativo .nav-links a {
     height: 180px;
 }
 
+.alternativo-intro {
+    background: #d0481c;
+    padding: 20px;
+    max-width: 1300px;
+    display: flex;              /* coloca imagen y texto en fila */
+    align-items: flex-start;    /* alinea arriba */
+    gap: 30px;                  /* espacio entre imagen y texto */
+    border-radius: 40px;
+    margin: 60px auto;
+    color: #fff;
+}
+
+.alternativo-intro .intro-img {
+    width: 300px;       /* tamaño fijo de la imagen */
+    height: auto;
+    border-radius: 20px;
+    flex-shrink: 0;     /* evita que se reduzca demasiado */
+}
+
+.alternativo-intro .intro-text {
+    flex: 1;            /* el texto ocupa el resto del espacio */
+}
+
+.MSV{
+    background: #d0481c;
+    padding: 20px;
+    max-width: 1300px;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 60px;
+    color: #ffff;
+}
+
+.Boxes{
+    background: #ffff;
+    padding: 20px;
+    max-width: 250px;
+    border-radius: 18px;
+    height: 250px;
+}
+
+.card-artista {
+    background: #d0481c;
+    padding: 20px 20px 20px 70px;
+    max-width: 1300px;
+    border-radius: 40px;
+    margin: 60px;
+    color: #fff;
+    position: relative;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.card-artista::before {
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    bottom: 30px;
+    width: 4px;
+    background-color: #f2c94c;
+    border-radius: 4px;
+}
+
+.badge-genero {
+    display: inline-block;
+    background-color: #f2c94c;
+    color: #1a1a1a;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.card-artista .card-inner {
+    display: grid;
+    place-items: center;
+}
+
+.card-artista h2 {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 2.2rem;
+    letter-spacing: 1.5px;
+    color: #f2c94c;
+    margin-top: 16px;
+    margin-bottom: 28px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid rgba(242, 201, 76, 0.4);
+    width: 100%;
+    text-align: center;
+}
+
 
 .eleva{
     background: rgba(0, 120, 141, 0.774);
@@ -168,28 +274,12 @@ body.alternativo .nav-links a {
     height: 180px;
 }
 
-.eleva_cod{
-    background: rgba(0, 120, 141, 0.774);
-    padding: 20px;
-    max-width: auto;
-    border-radius: 18px;
-    height: 100px;
-}
-
 .eso{
     background: rgba(0, 120, 141, 0.774);
     padding: 20px;
     max-width: 180px;
     border-radius: 18px;
     height: 180px;
-}
-
-.eso_cod{
-    background: rgba(0, 120, 141, 0.774);
-    padding: 20px;
-    max-width: auto;
-    border-radius: 18px;
-    height: 100px;
 }
 
 .armador{
@@ -209,8 +299,8 @@ body.alternativo .nav-links a {
     justify-content: center;
     align-items: center;
     border-radius: 40px;
-    margin: 30px;
-    color: rgb(65, 227, 255);
+    margin: 60px;
+    color: rgb(254, 246, 103);
 }
 
 .no-rules {
@@ -526,6 +616,7 @@ body.alternativo .nav-links a {
     height: 350px;
 }
 
+
 .acido1{
     background: #fff9c3;
     padding: 20px;
@@ -540,6 +631,15 @@ body.alternativo .nav-links a {
     max-width: auto;
     border-radius: 18px;
     height: 100px;
+}
+
+.meridian-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* espacio entre imágenes */
+    align-content: center;
+    align-items: center;
 }
 
 .acido-images {
@@ -583,3 +683,6 @@ body.alternativo .nav-links a {
 
 
 /*Apartado de Joticius*/
+
+/*Apartado de Joticius*/
+
