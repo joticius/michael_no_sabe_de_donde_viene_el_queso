@@ -794,22 +794,19 @@ body.indie-historia .cabezera,
         body.indie-historia .navegacion {
             background-color: #1a1a2e; /* azul noche indie */
         }
- 
         body.indie-historia .nav-links a {
             color: #e0aaff;
-        }
- 
+        }   
         body.indie-historia .nav-links a:hover {
             color: #c77dff;
         }
  
         body.indie-historia .content-box {
             background-color: #12001f;
-            background-image: none; /* sobreescribimos el fondo del rap */
+            background-image: none; 
             background-attachment: fixed;
         }
  
-        /* —— Bloque intro de era: imagen lateral + texto —— */
         .indie-era-banner {
             background: #1a1a2e;
             padding: 24px 30px;
