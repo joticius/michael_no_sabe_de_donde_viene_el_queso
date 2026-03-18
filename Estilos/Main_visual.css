@@ -347,4 +347,28 @@ body.alternativo .nav-links a {
     margin: 30px;
     color: rgb(255, 255, 255);
 }
+
+.albumero {
+    background: #fff9c3;
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+.lisandro {
+    background: #fff9c3;
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+.toto{
+    background: #fff9c3;
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
 /*Apartado de Joticius*/
