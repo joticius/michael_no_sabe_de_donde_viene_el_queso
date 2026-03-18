@@ -95,6 +95,7 @@ body.alternativo .content-box {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
 .logo_rap {
     width: 95%;
     align-items: center;
@@ -521,7 +522,47 @@ body.alternativo .content-box {
     margin:0 auto;
     border-radius: 20px ;  
 }
-
+/*cubo de que es indios del indie*/
+.IndiosDelIndie-cont {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    gap: 20px;
+    background-color: #f4e8dd;
+    padding: 30px;
+    width: 1300px;
+    max-width: 1500px;
+    border-radius: 40px;
+    margin: auto;
+}
+.Texto_Izq p{
+    color: rgba(31, 61, 43, 1);
+    font-size: 32px;
+    font-family:monospace;
+    margin-right: 600px;
+    text-align: left;
+    margin-top: -1700px;
+}
+.Texto_Izq h1{
+    color: rgba(203, 159, 0, 1);
+    font-size: 50px;
+    font-family: monospace;
+    max-width: 500px;
+    margin-right: 600px;
+    text-align: right;
+    margin: right -40px;
+    margin-bottom: 1700px;
+    white-space: nowrap;
+}
+.Texto_Der p{
+    color: rgba(31, 61, 43, 1);
+    font-size: 32px;
+    font-family:monospace;
+    margin-right: 600px;
+    text-align: right;
+    margin-top: -25px;
+    justify-content: flex-end;
+}
 
 /*Cumbieros*/
 .cabezera_cumbia {
@@ -614,4 +655,3 @@ body.alternativo .content-box {
     border-radius: 18px;
     height: 350px;
 }
-/*Apartado de Joticius*/
