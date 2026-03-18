@@ -517,6 +517,22 @@ body.alternativo .content-box {
     gap: 20px; /* espacio entre imágenes */
 }
 
+.eso_cod {
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: auto;
+    border-radius: 18px;
+    height: 100px;
+}
+
+.eleva_cod {
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: auto;
+    border-radius: 18px;
+    height: 100px;
+}
+
 @font-face {
   font-family: 'FuenteRap';
   src: url('../Recursos Graficos/Decipher_PERSONAL_USE_ONLY.otf') format('truetype');
