@@ -941,3 +941,286 @@ body.alternativo .content-box {
     border-radius: 18px;
     height: 200px;
 }
+/*zona que_es*/
+.alternativo-intro {
+    background: #1a1a2e;
+    border: 2px solid rgba(199, 125, 255, 0.3);
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.intro-img {
+    width: 300px;       /* tamaño fijo de la imagen */
+    height: 200px;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+
+.intro-text {
+    color: #e0d7f5;
+    font-family: monospace;
+}
+
+.intro-text h1 {
+    color: #c77dff;
+    font-family: monospace;
+}
+
+.intro-text p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+body.indie-historia .cabezera,
+        body.indie-historia .navegacion {
+            background-color: #1a1a2e; /* azul noche indie */
+        }
+ 
+        body.indie-historia .nav-links a {
+            color: #e0aaff;
+        }
+ 
+        body.indie-historia .nav-links a:hover {
+            color: #c77dff;
+        }
+ 
+        body.indie-historia .content-box {
+            background-color: #12001f;
+            background-image: none; /* sobreescribimos el fondo del rap */
+            background-attachment: fixed;
+        }
+ 
+        /* —— Bloque intro de era: imagen lateral + texto —— */
+        .indie-era-banner {
+            background: #1a1a2e;
+            padding: 24px 30px;
+            max-width: 1300px;
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            border-radius: 40px;
+            margin: 50px auto;
+            color: #e0aaff;
+            border-left: 6px solid #c77dff;
+        }
+ 
+        .indie-era-banner .era-img-slot {
+            width: 260px;
+            min-width: 260px;
+            height: 260px;
+            background: rgba(199, 125, 255, 0.1);
+            border-radius: 20px;
+            border: 2px dashed #c77dff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #c77dff;
+            font-family: monospace;
+            font-size: 14px;
+            text-align: center;
+            flex-shrink: 0;
+        }
+ 
+        .indie-era-banner .era-text {
+            flex: 1;
+        }
+ 
+        .indie-era-banner .era-text h2 {
+            font-family: 'Georgia', serif;
+            font-style: italic;
+            font-size: 2rem;
+            color: #c77dff;
+            margin-bottom: 10px;
+        }
+ 
+        .indie-era-banner .era-text p {
+            font-family: monospace;
+            font-size: 18px;
+            line-height: 1.7;
+            color: #e0d7f5;
+        }
+ 
+        /* —— Badge de era (equivale a .badge-genero) —— */
+        .indie-era-badge {
+            display: inline-block;
+            background-color: #c77dff;
+            color: #12001f;
+            font-size: 12px;
+            font-weight: bold;
+            font-family: monospace;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 4px 14px;
+            border-radius: 20px;
+            margin-bottom: 14px;
+        }
+ 
+        /* —— Badge variantes por era —— */
+        .indie-era-badge.era-80s  { background-color: #ff6b6b; color: #1a0000; }
+        .indie-era-badge.era-2000 { background-color: #ffd166; color: #1a1000; }
+        .indie-era-badge.era-2010 { background-color: #06d6a0; color: #001a11; }
+        .indie-era-badge.era-2019 { background-color: #c77dff; color: #12001f; }
+ 
+        /* —— Card de artista de la historia (reutiliza lógica de .card-artista) —— */
+        .indie-timeline-card {
+            background: #1a1a2e;
+            padding: 20px 20px 20px 70px;
+            max-width: 1300px;
+            border-radius: 40px;
+            margin: 40px auto;
+            color: #e0d7f5;
+            position: relative;
+            font-family: monospace;
+            font-size: 18px;
+        }
+ 
+        .indie-timeline-card::before {
+            content: '';
+            position: absolute;
+            left: 30px;
+            top: 30px;
+            bottom: 30px;
+            width: 4px;
+            background-color: #c77dff;
+            border-radius: 4px;
+        }
+ 
+        .indie-timeline-card h2 {
+            font-family: 'Georgia', serif;
+            font-style: italic;
+            font-size: 2rem;
+            letter-spacing: 1.5px;
+            color: #c77dff;
+            margin-top: 12px;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid rgba(199, 125, 255, 0.35);
+            width: 100%;
+            text-align: center;
+        }
+ 
+        .indie-timeline-card p {
+            line-height: 1.75;
+            margin-bottom: 14px;
+        }
+ 
+        .indie-timeline-card .card-inner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+ 
+        /* —— Fila de álbumes / artistas de era —— */
+        .indie-album-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+            margin: 20px 0;
+        }
+ 
+        /* —— Slot vacío para imagen de álbum (equivale a .mer-album / .Boxes) —— */
+        .indie-img-slot {
+            background: rgba(199, 125, 255, 0.08);
+            border: 2px dashed #c77dff;
+            border-radius: 18px;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #c77dff;
+            font-family: monospace;
+            font-size: 13px;
+            text-align: center;
+            padding: 10px;
+            gap: 8px;
+        }
+ 
+        .indie-img-slot span.slot-icon {
+            font-size: 2rem;
+        }
+ 
+        /* —— Slot pequeño para álbum (equivale a .mer-album) —— */
+        .indie-album-slot {
+            background: rgba(199, 125, 255, 0.08);
+            border: 2px dashed rgba(199, 125, 255, 0.5);
+            border-radius: 18px;
+            width: 160px;
+            height: 160px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #e0aaff;
+            font-family: monospace;
+            font-size: 12px;
+            text-align: center;
+            padding: 10px;
+            gap: 6px;
+        }
+ 
+        .indie-album-slot span.slot-icon {
+            font-size: 1.8rem;
+        }
+ 
+        /* —— Caja de resumen final (equivale a .MSV) —— */
+        .indie-summary {
+            background: linear-gradient(135deg, #1a1a2e, #2d0051);
+            padding: 40px;
+            max-width: 1300px;
+            border-radius: 40px;
+            margin: 60px auto;
+            color: #e0d7f5;
+            font-family: monospace;
+            font-size: 20px;
+            line-height: 1.8;
+            text-align: center;
+            border: 2px solid rgba(199, 125, 255, 0.3);
+        }
+ 
+        .indie-summary h2 {
+            font-family: 'Georgia', serif;
+            font-style: italic;
+            color: #c77dff;
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+        }
+ 
+        /* —— Línea de tiempo visual —— */
+        .indie-timeline-line {
+            width: 4px;
+            background: linear-gradient(to bottom, #ff6b6b, #ffd166, #06d6a0, #c77dff);
+            margin: 0 auto;
+            height: 60px;
+            border-radius: 4px;
+        }
+ 
+        /* —— Separador de era —— */
+        .indie-era-divider {
+            text-align: center;
+            margin: 10px 0;
+            font-family: monospace;
+            color: #c77dff;
+            font-size: 14px;
+            letter-spacing: 3px;
+            opacity: 0.6;
+        }
+        /* —— Artistas destacados en lista inline —— */
+        .indie-artistas-inline {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+            margin: 16px 0;
+        }
+        .indie-artista-tag {
+            background: rgba(199, 125, 255, 0.15);
+            border: 1px solid rgba(199, 125, 255, 0.4);
+            border-radius: 20px;
+            padding: 6px 16px;
+            font-family: monospace;
+            font-size: 15px;
+            color: #e0aaff;
+        }
