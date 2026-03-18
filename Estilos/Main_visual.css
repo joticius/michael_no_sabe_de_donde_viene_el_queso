@@ -681,7 +681,44 @@ body.alternativo .content-box {
     height: 180px;
 }
 
+.bomba{
+    background: #cb9f00;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 30px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.bomba-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* espacio entre imágenes */
+    align-content: center;
+    align-items: center;
+}
+
+.cod-bomba{
+    background: #fff9c3;
+    padding: 20px;
+    max-width: auto;
+    border-radius: 18px;
+    height: 100px;
+}
+
+.bomba-album{
+    background: #fff9c3;
+    padding: 20px;
+    max-width: 180px;
+    border-radius: 18px;
+    height: 180px;
+}
 /*Apartado de Joticius*/
 
 /*Apartado de Joticius*/
