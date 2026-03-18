@@ -761,7 +761,7 @@ body.alternativo .content-box {
     height: 180px;
 }
 /*zona que_es*/
-.alternativo-intro {
+.intro {
     background: #1a1a2e;
     border: 2px solid rgba(199, 125, 255, 0.3);
     display: flex;
@@ -782,7 +782,7 @@ body.alternativo .content-box {
 }
 
 .intro-text h1 {
-    color: #c77dff;
+    color: #ffffff;
     font-family: monospace;
 }
 
