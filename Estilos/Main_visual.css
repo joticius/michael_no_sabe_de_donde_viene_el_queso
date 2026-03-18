@@ -244,6 +244,8 @@ body.alternativo .content-box {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: auto;
+    height: 200px;
 }
 
 .rap-images2 {
@@ -287,9 +289,10 @@ body.alternativo .content-box {
 .navegacion_rap {
     width: 100%;
     background-color: #002944;
-    padding: 15px 0;
+    padding: 15px;
     height: 200px;
 }
+
 
 .rapnativo {
     background: rgba(0, 120, 141, 0.774);
