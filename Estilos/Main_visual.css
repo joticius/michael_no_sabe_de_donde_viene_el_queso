@@ -1,0 +1,1045 @@
+.cabezera {
+    width: 100%;
+    background-color: #1f3d2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 30%;
+    height: auto;
+}
+
+.navegacion {
+    width: 100%;
+    background-color: #1f3d2b;
+    padding: 15px 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* más separación entre textos */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px; /* espacio extra entre textos */
+    border-right: 2px solid white; /* línea separadora */
+    display: flex;         /* convierte cada enlace en contenedor flexible */
+    align-items: center;   /* centra el texto verticalmente */
+    justify-content: center; /* centra el texto horizontalmente */
+}
+
+
+.nav-links a:last-child {
+    border-right: none; /* quita la línea al final */
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+body.alternativo .cabezera {
+    background-color: #d0481c;
+}
+
+body.alternativo .navegacion {
+    background-color: #d0481c;
+}
+
+body.alternativo .nav-links a {
+    color: #f2c94c;
+}
+
+.Preguntas {
+    position: fixed;          /* se queda fija al hacer scroll */
+    bottom: 5%;             /* separación desde abajo */
+    right: 2%;              /* separación desde la derecha */
+    z-index: 1000;            /* asegura que quede encima del contenido */
+    display: inline-block;    /* mantiene el enlace como bloque ajustado */
+    transition: transform 0.5s ease; /* animación suave */
+}
+
+.Preguntas img {
+    width: 125px;              /* tamaño inicial */
+    height: auto;
+    cursor: pointer;          /* muestra la mano al pasar */
+}
+
+.Preguntas:hover {
+    transform: scale(1.2);    /* se agranda al pasar el ratón */
+}
+
+.content-box {
+    background-image: url('../Recursos%20Graficos/rap/fondogra2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    font-size: 20px;
+    font-family:monospace;
+    margin: 0px;
+}
+
+body.alternativo .content-box {
+    background-image: url('../Recursos Graficos/alternativa/fondo cuadros naranjas.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo_rap {
+    width: 95%;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.cabezera_rap {
+    width: 100%;
+    background-color: #002944;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rap-images2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* espacio entre imágenes */
+}
+
+.favela{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+.favela2{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+.letrero{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+.patada{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+.navegacion_rap {
+    width: 100%;
+    background-color: #002944;
+    padding: 15px 0;
+    height: 200px;
+}
+
+.rapnativo {
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 180px;
+    border-radius: 18px;
+    height: 180px;
+}
+
+.alternativo-intro {
+    background: #d0481c;
+    padding: 20px;
+    max-width: 1300px;
+    display: flex;              /* coloca imagen y texto en fila */
+    align-items: flex-start;    /* alinea arriba */
+    gap: 30px;                  /* espacio entre imagen y texto */
+    border-radius: 40px;
+    margin: 60px auto;
+    color: #fff;
+}
+
+.alternativo-intro .intro-img {
+    width: 300px;       /* tamaño fijo de la imagen */
+    height: auto;
+    border-radius: 20px;
+    flex-shrink: 0;     /* evita que se reduzca demasiado */
+}
+
+.alternativo-intro .intro-text {
+    flex: 1;            /* el texto ocupa el resto del espacio */
+}
+
+.MSV{
+    background: #d0481c;
+    padding: 20px;
+    max-width: 1300px;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 60px;
+    color: #ffff;
+}
+
+.Boxes{
+    background: #ffff;
+    padding: 20px;
+    max-width: 250px;
+    border-radius: 18px;
+    height: 250px;
+}
+
+.card-artista {
+    background: #d0481c;
+    padding: 20px 20px 20px 70px;
+    max-width: 1300px;
+    border-radius: 40px;
+    margin: 60px;
+    color: #fff;
+    position: relative;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.card-artista::before {
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    bottom: 30px;
+    width: 4px;
+    background-color: #f2c94c;
+    border-radius: 4px;
+}
+
+.badge-genero {
+    display: inline-block;
+    background-color: #f2c94c;
+    color: #1a1a1a;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.card-artista .card-inner {
+    display: grid;
+    place-items: center;
+}
+
+.card-artista h2 {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 2.2rem;
+    letter-spacing: 1.5px;
+    color: #f2c94c;
+    margin-top: 16px;
+    margin-bottom: 28px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid rgba(242, 201, 76, 0.4);
+    width: 100%;
+    text-align: center;
+}
+
+
+.eleva{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 180px;
+    border-radius: 18px;
+    height: 180px;
+}
+
+.eso{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 180px;
+    border-radius: 18px;
+    height: 180px;
+}
+
+.armador{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 180px;
+    border-radius: 18px;
+    height: 180px;
+}
+
+.rap-intro {
+    background: #002944;
+    padding: 20px;
+    max-width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin: 60px;
+    color: rgb(254, 246, 103);
+}
+
+.no-rules {
+    background: #002944;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 30px;
+    color:rgb(65, 227, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rapnativo_cod {
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: auto;
+    border-radius: 18px;
+    height: 100px;
+}
+
+.n-hardem {
+    background: #002944;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 30px;
+    color:rgb(65, 227, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.zabaz {
+    background: #002944;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 30px;
+    color:rgb(65, 227, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.luis7lunes {
+    background: #002944;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 30px;
+    color:rgb(65, 227, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.armador_cod {
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: auto;
+    border-radius: 18px;
+    height: 100px;
+}
+
+.rap-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* espacio entre imágenes */
+}
+
+@font-face {
+  font-family: 'FuenteRap';
+  src: url('../Recursos Graficos/Decipher_PERSONAL_USE_ONLY.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuenteRapSymbols';
+  src: url('../Recursos Graficos/DecipherSymbols_PERSONAL_USE_ONLY.otf') format('truetype');
+}
+
+/*Apartado de Daniel Inicio */
+.content-box-main{
+    background-image: url('../Recursos Graficos/main/Fondo_Amarillo.png');
+    background-size: contain;
+    background-position: 100% 100%;
+    background-repeat:repeat;
+    margin: 1px;
+    padding: 1px;
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hits-cont{
+    position:relative;
+    height: 500px;
+    
+}
+.hits{
+    position:absolute;
+    right:-25vh;
+    top: 80px;
+    background-color: #f4e8dd;
+    padding: 30px;
+    width: 1300px;
+    place-items: right;
+    border-radius: auto;
+    height: 300px;
+    border-radius: 40px;
+    display: flex;
+    gap: 20px;
+}   
+.hit-info p{
+    color: rgba(31, 61, 43, 1);
+    font-size: 32px;
+    font-family:monospace;
+    max-width: 500px;
+}
+.hit-info h1{
+    color: rgba(203, 159, 0, 1);
+    font-size: 60px;
+    font-family: monospace;
+    max-width: 500px;
+}
+.hits-cont img{
+    width: 300px;
+    height: 300px;
+}
+/*Apartado de Daniel BANDA 2  */
+.Noticia-cont{
+    position:relative;
+    height: 500px;
+}
+.BALTHVS{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items:right;
+    gap: 20px;
+    background-color: #f4e8dd;
+    padding: 30px;
+    width: 85%;
+    max-width: 1050px ;
+    border-radius: 40px;
+    height: 300px;
+}   
+.BALTHVS-info p{
+    color: rgba(31, 61, 43, 1);
+    font-size: 32px;
+    font-family:monospace;
+    margin-left: 680px;
+    text-align: right;
+    margin-right: -px;
+    margin-top: -20px;
+}
+.BALTHVS-info h1{
+    color: rgba(203, 159, 0, 1);
+    font-size: 60px;
+    font-family: monospace;
+    max-width: 500px;
+    margin-left: 1020px;
+    text-align: right;
+    margin-top: 20px;
+}
+.BALTHVS-cont img{
+    width: 200px;
+    height: 200px;
+    margin:0 auto;
+    border-radius: 20px ;  
+}
+/*Apartado de Daniel BANDA 3 */
+.Entreco-cont{
+    position:relative;
+    height: 500px;
+}
+.Entreco{
+    display: flex;
+    justify-content: flex-start;
+    align-items: right;
+    gap: 20px;
+    background-color: #f4e8dd;
+    padding: 30px;
+    width: 1200px;
+    max-width: 1500px ;
+    border-radius: 40px;
+    height: 300px;
+}
+.Entreco-info p{
+    color: rgba(31, 61, 43, 1);
+    font-size: 32px;
+    font-family:monospace;
+    margin-right: 680px;
+    text-align: left;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+.Entreco-info h1{
+    color: rgba(203, 159, 0, 1);
+    font-size: 50px;
+    font-family: monospace;
+    max-width: 500px;
+    margin-right: 1020px;
+    text-align: left;
+    margin-left: -40px;
+    margin-top: 5px;
+}
+.Entreco-cont img{
+    transform: scale(0.8);
+    margin:0 auto;
+    border-radius: 20px ;  
+}
+/*cubo de que es indios del indie*/
+.IndiosDelIndie-cont {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    gap: 20px;
+    background-color: #f4e8dd;
+    padding: 30px;
+    width: 1300px;
+    max-width: 1500px;
+    border-radius: 40px;
+    margin: auto;
+}
+.Texto_Izq p{
+    color: rgba(31, 61, 43, 1);
+    font-size: 32px;
+    font-family:monospace;
+    margin-right: 600px;
+    text-align: left;
+    margin-top: -1700px;
+}
+.Texto_Izq h1{
+    color: rgba(203, 159, 0, 1);
+    font-size: 50px;
+    font-family: monospace;
+    max-width: 500px;
+    margin-right: 600px;
+    text-align: right;
+    margin: right -40px;
+    margin-bottom: 1700px;
+    white-space: nowrap;
+}
+.Texto_Der p{
+    color: rgba(31, 61, 43, 1);
+    font-size: 32px;
+    font-family:monospace;
+    margin-right: 600px;
+    text-align: right;
+    margin-top: -25px;
+    justify-content: flex-end;
+}
+
+/*Cumbieros*/
+.cabezera_cumbia {
+    width: 100%;
+    background-color: #cb9f00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: 200px;
+}
+
+.navegacion_cumbia {
+    width: 100%;
+    background-color: #cb9f00;
+    padding: 15px 0;
+    height: 200px;
+}
+
+.content-box-cumbia {
+    background-image: url('../Recursos%20Graficos/cumbia/pasaje2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    font-size: 20px;
+    font-family:monospace;
+    margin: 0px;
+}
+
+.cumbia-intro {
+    background: #cb9f00;
+    padding: 20px;
+    max-width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin: 30px;
+    color: rgb(255, 255, 255);
+}
+
+
+.albumero {
+    background: #fff9c3;
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+.lisandro {
+    background: #fff9c3;
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+.toto{
+    background: #fff9c3;
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+.acido{
+    background: #cb9f00;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 30px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.licha2{
+    background: #fff9c3;
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+
+
+.acido1{
+    background: #fff9c3;
+    padding: 20px;
+    max-width: 180px;
+    border-radius: 1000px;
+    height: 180px;
+}
+
+.cod-acido{
+    background: #fff9c3;
+    padding: 20px;
+    max-width: auto;
+    border-radius: 18px;
+    height: 100px;
+}
+
+.meridian-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* espacio entre imágenes */
+    align-content: center;
+    align-items: center;
+}
+
+.acido-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* espacio entre imágenes */
+    align-content: center;
+    align-items: center;
+}
+
+.meridian {
+    background: #cb9f00;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 30px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cod-meridian{
+    background: #fff9c3;
+    padding: 20px;
+    max-width: auto;
+    border-radius: 18px;
+    height: 100px;
+}
+
+.mer-album{
+    background: #fff9c3;
+    padding: 20px;
+    max-width: 180px;
+    border-radius: 18px;
+    height: 180px;
+}
+
+.bomba{
+    background: #cb9f00;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 30px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bomba-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* espacio entre imágenes */
+    align-content: center;
+    align-items: center;
+}
+
+.cod-bomba{
+    background: #fff9c3;
+    padding: 20px;
+    max-width: auto;
+    border-radius: 18px;
+    height: 100px;
+}
+
+.bomba-album{
+    background: #fff9c3;
+    padding: 20px;
+    max-width: 180px;
+    border-radius: 18px;
+    height: 180px;
+}
+/*zona que_es*/
+.alternativo-intro {
+    background: #1a1a2e;
+    border: 2px solid rgba(199, 125, 255, 0.3);
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.intro-img {
+    width: 300px;       /* tamaño fijo de la imagen */
+    height: 200px;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+
+.intro-text {
+    color: #e0d7f5;
+    font-family: monospace;
+}
+
+.intro-text h1 {
+    color: #c77dff;
+    font-family: monospace;
+}
+
+.intro-text p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+body.indie-historia .cabezera,
+        body.indie-historia .navegacion {
+            background-color: #1a1a2e; /* azul noche indie */
+        }
+ 
+        body.indie-historia .nav-links a {
+            color: #e0aaff;
+        }
+ 
+        body.indie-historia .nav-links a:hover {
+            color: #c77dff;
+        }
+ 
+        body.indie-historia .content-box {
+            background-color: #12001f;
+            background-image: none; /* sobreescribimos el fondo del rap */
+            background-attachment: fixed;
+        }
+ 
+        /* —— Bloque intro de era: imagen lateral + texto —— */
+        .indie-era-banner {
+            background: #1a1a2e;
+            padding: 24px 30px;
+            max-width: 1300px;
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            border-radius: 40px;
+            margin: 50px auto;
+            color: #e0aaff;
+            border-left: 6px solid #c77dff;
+        }
+ 
+        .indie-era-banner .era-img-slot {
+            width: 260px;
+            min-width: 260px;
+            height: 260px;
+            background: rgba(199, 125, 255, 0.1);
+            border-radius: 20px;
+            border: 2px dashed #c77dff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #c77dff;
+            font-family: monospace;
+            font-size: 14px;
+            text-align: center;
+            flex-shrink: 0;
+        }
+ 
+        .indie-era-banner .era-text {
+            flex: 1;
+        }
+ 
+        .indie-era-banner .era-text h2 {
+            font-family: 'Georgia', serif;
+            font-style: italic;
+            font-size: 2rem;
+            color: #c77dff;
+            margin-bottom: 10px;
+        }
+ 
+        .indie-era-banner .era-text p {
+            font-family: monospace;
+            font-size: 18px;
+            line-height: 1.7;
+            color: #e0d7f5;
+        }
+ 
+        /* —— Badge de era (equivale a .badge-genero) —— */
+        .indie-era-badge {
+            display: inline-block;
+            background-color: #c77dff;
+            color: #12001f;
+            font-size: 12px;
+            font-weight: bold;
+            font-family: monospace;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 4px 14px;
+            border-radius: 20px;
+            margin-bottom: 14px;
+        }
+ 
+        /* —— Badge variantes por era —— */
+        .indie-era-badge.era-80s  { background-color: #ff6b6b; color: #1a0000; }
+        .indie-era-badge.era-2000 { background-color: #ffd166; color: #1a1000; }
+        .indie-era-badge.era-2010 { background-color: #06d6a0; color: #001a11; }
+        .indie-era-badge.era-2019 { background-color: #c77dff; color: #12001f; }
+ 
+        /* —— Card de artista de la historia (reutiliza lógica de .card-artista) —— */
+        .indie-timeline-card {
+            background: #1a1a2e;
+            padding: 20px 20px 20px 70px;
+            max-width: 1300px;
+            border-radius: 40px;
+            margin: 40px auto;
+            color: #e0d7f5;
+            position: relative;
+            font-family: monospace;
+            font-size: 18px;
+        }
+ 
+        .indie-timeline-card::before {
+            content: '';
+            position: absolute;
+            left: 30px;
+            top: 30px;
+            bottom: 30px;
+            width: 4px;
+            background-color: #c77dff;
+            border-radius: 4px;
+        }
+ 
+        .indie-timeline-card h2 {
+            font-family: 'Georgia', serif;
+            font-style: italic;
+            font-size: 2rem;
+            letter-spacing: 1.5px;
+            color: #c77dff;
+            margin-top: 12px;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid rgba(199, 125, 255, 0.35);
+            width: 100%;
+            text-align: center;
+        }
+ 
+        .indie-timeline-card p {
+            line-height: 1.75;
+            margin-bottom: 14px;
+        }
+ 
+        .indie-timeline-card .card-inner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+ 
+        /* —— Fila de álbumes / artistas de era —— */
+        .indie-album-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+            margin: 20px 0;
+        }
+ 
+        /* —— Slot vacío para imagen de álbum (equivale a .mer-album / .Boxes) —— */
+        .indie-img-slot {
+            background: rgba(199, 125, 255, 0.08);
+            border: 2px dashed #c77dff;
+            border-radius: 18px;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #c77dff;
+            font-family: monospace;
+            font-size: 13px;
+            text-align: center;
+            padding: 10px;
+            gap: 8px;
+        }
+ 
+        .indie-img-slot span.slot-icon {
+            font-size: 2rem;
+        }
+ 
+        /* —— Slot pequeño para álbum (equivale a .mer-album) —— */
+        .indie-album-slot {
+            background: rgba(199, 125, 255, 0.08);
+            border: 2px dashed rgba(199, 125, 255, 0.5);
+            border-radius: 18px;
+            width: 160px;
+            height: 160px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #e0aaff;
+            font-family: monospace;
+            font-size: 12px;
+            text-align: center;
+            padding: 10px;
+            gap: 6px;
+        }
+ 
+        .indie-album-slot span.slot-icon {
+            font-size: 1.8rem;
+        }
+ 
+        /* —— Caja de resumen final (equivale a .MSV) —— */
+        .indie-summary {
+            background: linear-gradient(135deg, #1a1a2e, #2d0051);
+            padding: 40px;
+            max-width: 1300px;
+            border-radius: 40px;
+            margin: 60px auto;
+            color: #e0d7f5;
+            font-family: monospace;
+            font-size: 20px;
+            line-height: 1.8;
+            text-align: center;
+            border: 2px solid rgba(199, 125, 255, 0.3);
+        }
+ 
+        .indie-summary h2 {
+            font-family: 'Georgia', serif;
+            font-style: italic;
+            color: #c77dff;
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+        }
+ 
+        /* —— Línea de tiempo visual —— */
+        .indie-timeline-line {
+            width: 4px;
+            background: linear-gradient(to bottom, #ff6b6b, #ffd166, #06d6a0, #c77dff);
+            margin: 0 auto;
+            height: 60px;
+            border-radius: 4px;
+        }
+ 
+        /* —— Separador de era —— */
+        .indie-era-divider {
+            text-align: center;
+            margin: 10px 0;
+            font-family: monospace;
+            color: #c77dff;
+            font-size: 14px;
+            letter-spacing: 3px;
+            opacity: 0.6;
+        }
+        /* —— Artistas destacados en lista inline —— */
+        .indie-artistas-inline {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+            margin: 16px 0;
+        }
+        .indie-artista-tag {
+            background: rgba(199, 125, 255, 0.15);
+            border: 1px solid rgba(199, 125, 255, 0.4);
+            border-radius: 20px;
+            padding: 6px 16px;
+            font-family: monospace;
+            font-size: 15px;
+            color: #e0aaff;
+        }
