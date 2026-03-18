@@ -301,7 +301,7 @@ body.alternativo .nav-links a {
   font-family: 'FuenteRapSymbols';
   src: url('../Recursos Graficos/DecipherSymbols_PERSONAL_USE_ONLY.otf') format('truetype');
 }
-<<<<<<< HEAD
+/*Apartado de Daniel Inicio */
 .content-box-main{
     background-image: url('../Recursos Graficos/main/Fondo_Amarillo.png');
     background-size: contain;
@@ -348,21 +348,21 @@ body.alternativo .nav-links a {
     width: 300px;
     height: 300px;
 }
+/*Apartado de Daniel BANDA 2  */
 .Noticia-cont{
     position:relative;
     height: 500px;
-    
 }
 .BALTHVS{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: right;
+    justify-content: flex-start;
     align-items:right;
     gap: 20px;
     background-color: #f4e8dd;
-    top: 80px;
     padding: 30px;
-    width: 1300px;
+    width: 85%;
+    max-width: 1050px ;
     border-radius: 40px;
     height: 300px;
 }   
@@ -370,13 +370,19 @@ body.alternativo .nav-links a {
     color: rgba(31, 61, 43, 1);
     font-size: 32px;
     font-family:monospace;
-    max-width: 500px;
+    margin-left: 680px;
+    text-align: right;
+    margin-right: -px;
+    margin-top: -20px;
 }
 .BALTHVS-info h1{
     color: rgba(203, 159, 0, 1);
     font-size: 60px;
     font-family: monospace;
     max-width: 500px;
+    margin-left: 1020px;
+    text-align: right;
+    margin-top: 20px;
 }
 .BALTHVS-cont img{
     width: 200px;
@@ -384,9 +390,41 @@ body.alternativo .nav-links a {
     margin:0 auto;
     border-radius: 20px ;  
 }
-=======
-
-
+/*Apartado de Daniel BANDA 3 */
+.Entreco-cont{
+    position:relative;
+    height: 500px;
+}
+.Entreco{
+    display: flex;
+    justify-content: flex-start;
+    align-items:left;
+    gap: 20px;
+    background-color: #f4e8dd;
+    padding: 30px;
+    width: 85%;
+    max-width: 1050px ;
+    border-radius: 40px;
+    height: 300px;
+}
+.Entreco-info p{
+    color: rgba(31, 61, 43, 1);
+    font-size: 32px;
+    font-family:monospace;
+    margin-right: 680px;
+    text-align: left;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+.Entreco-info h1{
+    color: rgba(203, 159, 0, 1);
+    font-size: 60px;
+    font-family: monospace;
+    max-width: 500px;
+    margin-right: 1020px;
+    text-align: left;
+    margin-top: 20px;
+}
 /*Cumbieros*/
 .cabezera_cumbia {
     width: 100%;
@@ -432,4 +470,4 @@ body.alternativo .nav-links a {
     color: rgb(255, 255, 255);
 }
 /*Apartado de Joticius*/
->>>>>>> 5394f289792282eb75985660bbbfe7cbf843c608
+
