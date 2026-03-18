@@ -301,7 +301,11 @@ body.alternativo .nav-links a {
   font-family: 'FuenteRapSymbols';
   src: url('../Recursos Graficos/DecipherSymbols_PERSONAL_USE_ONLY.otf') format('truetype');
 }
+<<<<<<< HEAD
 /*Apartado de Daniel Inicio */
+=======
+
+>>>>>>> a02410a786e729ffa1e3af54208593d12182fced
 .content-box-main{
     background-image: url('../Recursos Graficos/main/Fondo_Amarillo.png');
     background-size: contain;
@@ -390,6 +394,7 @@ body.alternativo .nav-links a {
     margin:0 auto;
     border-radius: 20px ;  
 }
+<<<<<<< HEAD
 /*Apartado de Daniel BANDA 3 */
 .Entreco-cont{
     position:relative;
@@ -425,6 +430,9 @@ body.alternativo .nav-links a {
     text-align: left;
     margin-top: 20px;
 }
+=======
+
+>>>>>>> a02410a786e729ffa1e3af54208593d12182fced
 /*Cumbieros*/
 .cabezera_cumbia {
     width: 100%;
@@ -469,5 +477,49 @@ body.alternativo .nav-links a {
     margin: 30px;
     color: rgb(255, 255, 255);
 }
+
+
+.albumero {
+    background: #fff9c3;
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+.lisandro {
+    background: #fff9c3;
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+.toto{
+    background: #fff9c3;
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 18px;
+    height: 350px;
+}
+
+.acido{
+    background: #002944;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 30px;
+    color:rgb(65, 227, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 /*Apartado de Joticius*/
 
+<<<<<<< HEAD
+=======
+/*Apartado de Joticius*/
+
+>>>>>>> a02410a786e729ffa1e3af54208593d12182fced
