@@ -438,7 +438,7 @@ body.alternativo .content-box {
     align-items: center;
     border-radius: 40px;
     margin: 60px;
-    color: rgb(254, 246, 103);
+    color: rgb(65, 227, 255);
 }
 
 .no-rules {
@@ -475,6 +475,36 @@ body.alternativo .content-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.error999 {
+    background: #002944;
+    padding: 20px;
+    max-width: auto;
+    border-radius: auto;
+    height: auto;
+    border-radius: 40px;
+    margin: 30px;
+    color:rgb(65, 227, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.odisea_cod {
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: auto;
+    border-radius: 18px;
+    height: 100px;
+}
+
+.odisea{
+    background: rgba(0, 120, 141, 0.774);
+    padding: 20px;
+    max-width: 180px;
+    border-radius: 18px;
+    height: 180px;
 }
 
 .zabaz {
